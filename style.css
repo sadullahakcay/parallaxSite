@@ -1,0 +1,62 @@
+/*$primaryColor: #f4f4f4;
+  $secondaryColor: #282e34;*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+section {
+    background-color: #f4f4f4;
+    color: #282e34;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 25rem;
+    padding: 3rem 5rem;
+}
+
+.odd_1, .odd_2, .odd_3, .odd_4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* fixed => parallax, scroll => normal */
+}
+
+.odd_1 {
+    background-image: url("https://picsum.photos/800/600?random=1");
+    padding: 1.25rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    height: 100vh;
+}
+
+.odd_2 {
+    background-image: url("https://picsum.photos/800/600?random=2");
+    padding: 1.25rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.odd_3 {
+    background-image: url("https://picsum.photos/800/600?random=3");
+    padding: 1.25rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.odd_4 {
+    background-image: url("https://picsum.photos/800/600?random=4");
+    padding: 1.25rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.odd_1 p, .odd_2 p, .odd_3 p, .odd_4 p {
+    background-color: #f4f4f4;
+    color: #282e34;
+}
