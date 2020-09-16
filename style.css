@@ -1,6 +1,3 @@
-/*$primaryColor: #f4f4f4;
-  $secondaryColor: #282e34;*/
-
 html, body {
     height: 100%;
     margin: 0;
@@ -57,6 +54,6 @@ section {
 }
 
 .odd_1 p, .odd_2 p, .odd_3 p, .odd_4 p {
-    background-color: #f4f4f4;
+    background-color: #a18b8b;
     color: #282e34;
 }
